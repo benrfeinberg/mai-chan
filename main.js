@@ -138,9 +138,16 @@ $(document).ready(function() {
 });
 
 $(window).keypress(function( event ) {
-  alert(event.key)
-  alert(event.keyCode)
-  var key = event.key.toLowerCase();
+  var key;
+  if(event.key)
+    key = event.key.toLowerCase();
+  else {
+    key = String.fromCharCode(event.keyCode);
+    if(key)
+      key = key.toLowerCase();
+  }
+
+  alert(key);
 
   var data = media[key];
   if(data) {
