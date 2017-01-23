@@ -135,6 +135,9 @@ var media = {
 
 $(document).ready(function() {
   $("#hiddenText").focus();
+
+  var clientHeight = $( window ).height();
+  $('body').css('height', clientHeight);
 });
 
 $(window).keypress(function( event ) {
@@ -142,13 +145,10 @@ $(window).keypress(function( event ) {
   if(event.key)
     key = event.key.toLowerCase();
   else {
-    alert(String.fromCharCode);
     key = String.fromCharCode(event.keyCode);
     if(key)
       key = key.toLowerCase();
   }
-
-  alert(key);
 
   var data = media[key];
   if(data) {
