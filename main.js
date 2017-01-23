@@ -142,6 +142,7 @@ $(window).keypress(function( event ) {
   if(event.key)
     key = event.key.toLowerCase();
   else {
+    alert(String.fromCharCode;
     key = String.fromCharCode(event.keyCode);
     if(key)
       key = key.toLowerCase();
