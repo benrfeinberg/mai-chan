@@ -138,8 +138,8 @@ $(document).ready(function() {
 });
 
 $(window).keypress(function( event ) {
-  alert("key");
-  alert(JSON.stringify(event));
+  alert(event.key)
+  alert(event.keyCode)
   var key = event.key.toLowerCase();
 
   var data = media[key];
