@@ -23,3 +23,13 @@ h1 {
       -1px 1px 0 #000,
        1px 1px 0 #000;
 }
+
+#hiddenText {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}

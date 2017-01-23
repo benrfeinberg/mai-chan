@@ -132,11 +132,12 @@ var media = {
     text: ""
   }
 }
-alert("hi")
+
+$(document).ready(function() {
+  $("#hiddenText").focus();
+});
 
 $(window).keypress(function( event ) {
-  alert("key")
-  alert(JSON.stringify(event));
   var key = event.key.toLowerCase();
 
   var data = media[key];
