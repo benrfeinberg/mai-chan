@@ -132,8 +132,11 @@ var media = {
     text: ""
   }
 }
+alert("hi")
 
 $(window).keypress(function( event ) {
+  alert("key")
+  alert(JSON.stringify(event));
   var key = event.key.toLowerCase();
 
   var data = media[key];
