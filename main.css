@@ -4,7 +4,6 @@ body {
     background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 100% 100%;
     background-color: black;
     border: 1px solid red;
     margin: 0;
@@ -28,6 +27,7 @@ h1 {
 #hiddenText {
   background-color: transparent;
   border: none;
+  color: transparent;
   position: absolute;
   top: 0;
   left: 0;

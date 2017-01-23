@@ -47,7 +47,7 @@ var media = {
     text: ""
   },
   j: {
-    image: "https://www.pexels.com/photo/cat-leopard-animal-nature-37535/",
+    image: "https://static.pexels.com/photos/37535/leopard-cat-savuti-botswana-37535.jpeg",
     sound: "http://c0026106.cdn1.cloudfiles.rackspacecloud.com/44e8f669f95149af8aaaf8e6cfd5c7bc_jaguar-001.mp3",
     text: "jaguar"
   },
@@ -135,9 +135,6 @@ var media = {
 
 $(document).ready(function() {
   $("#hiddenText").focus();
-
-  var clientHeight = $( window ).height();
-  $('body').css('height', clientHeight);
 });
 
 $(window).keypress(function( event ) {
