@@ -133,10 +133,6 @@ var media = {
   }
 }
 
-$(document).ready(function() {
-  $("#hiddenText").focus();
-});
-
 $(window).keypress(function( event ) {
   var key;
   if(event.key)
