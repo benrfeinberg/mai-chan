@@ -93,7 +93,7 @@ var media = {
   },
   s: {
     image: "https://static.pexels.com/photos/18103/pexels-photo.jpg",
-    sound: "",
+    sound: "http://www.animal-sounds.org/jungle/Monkey%20chatter%20animals059.wav",
     text: "saru"
   },
   t: {
@@ -107,9 +107,9 @@ var media = {
     text: "uma"
   },
   v: {
-    image: "",
-    sound: "",
-    text: ""
+    image: "https://static.pexels.com/photos/145957/pexels-photo-145957.jpeg",
+    sound: "http://www.animal-sounds.org/Air/Vulture%20animals008.wav",
+    text: "vulture"
   },
   w: {
     image: "https://static.pexels.com/photos/6646/nature-animal-fur-wolf.jpeg",
